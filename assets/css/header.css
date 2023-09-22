@@ -1,0 +1,80 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Nunito';
+}
+
+.upper-navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.search-bar {
+    border-radius: 40px 40px 40px 0px;
+    border: 1px solid var(--Blue-Gray-100, #E2E6E9);
+
+}
+
+.search-bar input[type="text"] {
+    padding: 5%;
+    border: none;
+    background: none;
+    color: white;
+    width: -webkit-fill-available;
+}
+
+.search-bar input[type="text"]:focus {
+    outline: none;
+}
+
+.search-bar i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Styles for the lower navbar */
+.lower-navbar {
+    background: linear-gradient(to bottom, #3cc400, #005800); /* Green gradient */
+    padding: 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
