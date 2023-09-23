@@ -14,12 +14,19 @@
                     <img src="../assets/img/logo.png" alt="Logo">
                     <span>GrowTogether</span>
                 </div>
+                <div class = "menu">
                 <div class="search-bar">
                     <input type="text" placeholder="Search...">
                     <i class="las la-search"></i>
                 </div>
                 <div class="dropdown">
-                    <!-- Dropdown content here -->
+                <i class="lar la-user"></i>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
