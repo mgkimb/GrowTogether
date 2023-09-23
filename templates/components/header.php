@@ -35,9 +35,9 @@
         <nav class="lower-navbar">
             <div class="container">
                 <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Plant Health</a></li>
-                    <li><a href="#">Learn Green</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PLANT HEALTH</a></li>
+                    <li><a href="#">LEARN GREEN</a></li>
                 </ul>
             </div>
         </nav>
