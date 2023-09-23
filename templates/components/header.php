@@ -1,7 +1,8 @@
     <link rel="stylesheet" href="../assets/css/header.css">
 
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+   
 </head>
 
 <body>
@@ -15,7 +16,7 @@
                 </div>
                 <div class="search-bar">
                     <input type="text" placeholder="Search...">
-                    <i class="fa fa-search"></i>
+                    <i class="las la-search"></i>
                 </div>
                 <div class="dropdown">
                     <!-- Dropdown content here -->
