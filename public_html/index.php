@@ -8,13 +8,13 @@
 <?php include '../templates/components/header.php'; 
 
 function loadTemplate($page) {
-    if ($page === 'Home') {
-        include('../templates/pages/home.php');
-    } elseif ($page === 'PlantHealth') {
+    if ($page === 'PlantHealth') {
         include('../templates/pages/planthealth.php');
+    } elseif ($page === 'PlantHealth-results') {
+        include('../templates/pages/planthealth-results.php');
     } else {
         // Handle other cases or display an error page
-        echo 'Page not found';
+        include('../templates/pages/home.php');
     }
 }
 
