@@ -40,11 +40,24 @@
   .banner .button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #B5D752;
-    color: #fff;
+    background-color: #084517;
+    color: #084517;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    z-index; 1;
+  }
+
+  .banner .button:hover {
+    background-color: #B5D752;
+  }
+
+  .banner .button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .banner .button a:active {
+    color: #084517;
   }
 
   .rcontainer {
@@ -215,6 +228,10 @@
     margin-top: 10px;
   }
 
+  .dropArea .contentHolder button:hover {
+    background-color: #a0a5ad;
+  }
+
   .dropArea .contentHolder input {
     visibility: hidden;
     position: absolute;
@@ -291,6 +308,12 @@
     text-align: right;
   }
 
+  .uploadBtn:hover {
+    background-color: #2d6a2d;
+    transition: 0.3s ease;
+    transition-property: background-color;
+  }
+
   .uploadBtn a {
     color: #fff;
     text-decoration: none;
@@ -309,10 +332,10 @@
       <b style="font-weight:800;">Plant Disease Detection</b>
     </h1>
     <p>Our plant detection and diagnosis tool seamlessly combines speed, accuracy, and precision, providing users with a user-friendly and efficient solution for swiftly identifying plant issues, diseases, and anomalies, enabling data-driven decisions and optimized plant management.</p>
-    <button class="button">Try Now!</button>
+    <button class="button"> <a href = "#rcontainer">Try Now!</a></button>
   </div>
 </div>
-<div class="rcontainer">
+<div class="rcontainer" id = "rcontainer">
   <div class="left-container">
     <!-- Image Upload Container -->
     <div class="uploadborder">

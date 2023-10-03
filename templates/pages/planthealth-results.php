@@ -52,7 +52,7 @@
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 30%;
-    padding: 20px;
+    padding: 5%;
     box-sizing: border-box;
   }
 
