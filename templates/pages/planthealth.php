@@ -282,7 +282,6 @@
     border: none;
     outline: none;
     background-color: #378049;
-    color: #fff;
     padding: 0.45rem 1.2rem;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -290,6 +289,11 @@
     line-height: 1.5;
     float: right;
     text-align: right;
+  }
+
+  .uploadBtn a {
+    color: #fff;
+    text-decoration: none;
   }
 
   .uploadBtnCont.content-here {
@@ -325,7 +329,7 @@
       </div>
       <div class="uploadedFileCont" id="uploadedFileCont"></div>
       <div class="uploadBtnCont" id="uploadBtnCont">
-        <button class="uploadBtn">Upload</button>
+        <button class="uploadBtn"><a href = "?page=PlantHealth-results">Upload</a></button>
       </div>
     </div>
     <div class="card-container">
