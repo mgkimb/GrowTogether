@@ -94,6 +94,7 @@
     margin-bottom: 20px;
     background-color: #fff;
     flex: 0.3;
+    text-align: center;
   }
 
   .info-box-container{
