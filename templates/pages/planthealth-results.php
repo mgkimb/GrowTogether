@@ -1,4 +1,7 @@
 <style>
+  a{
+    text-decoration: none;
+  }
   .banner {
     background-image: linear-gradient(rgb(200 243 204 / 74%),
         rgb(113 243 121 / 79%)), url(../assets/img/banner.png);
@@ -54,6 +57,7 @@
     width: 30%;
     padding: 5%;
     box-sizing: border-box;
+    height: -webkit-fill-available;
   }
 
   .health-circle {
@@ -78,12 +82,13 @@
   .health-heading {
     font-size: 18px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
   }
 
   .health-description {
     text-align: center;
+    margin-top: 10px;
   }
 
   .cards-container {
@@ -106,6 +111,10 @@
     font-size: x-large;
     font-weight: bold;
   }
+
+  .card-description {
+    margin-top: 10px;
+  }
   .disease {
     font-weight: bold;
     padding-left: 1%;
@@ -115,6 +124,35 @@
     flex-direction: row;
     font-size: x-large;
   }
+  .learn-more-button {
+            background-color: #399152;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            float: right; /* This floats the button to the right */
+        }
+
+        .learn-more-button:hover {
+            background-color: #084517;
+        }
+
+        .popup-btn{
+         
+  text-align: center;
+  background-color: #399152;
+            color: white;
+            padding: 10px 20px;
+    border-radius: 20px 0;
+}
+
+.popup-btn:hover {
+  background-color: #084517;
+}
+
+
 </style>
 <div class="banner">
   <div class="heading">
@@ -124,25 +162,43 @@
   </div>
 </div>
 <div class="plant-description-container">
-  <img class="plant-image" src="your-plant-image.jpg" alt="Plant Image">
-  <div class="plant-heading">Plant Name</div>
+  <img class="plant-image" src="../assets/img/AppleScab3.jpg" alt="Plant Image">
+  <div class="plant-heading">Apple Leaf</div>
 </div>
 <div class="plant-health-details">
   <div class="health-status-container">
     <div class="health-circle">
       <div class="health-percentage">75%</div>
     </div>
-    <div class="health-heading">Health Status</div>
-    <div class="health-description">Description of health status...</div>
+    <div class="health-heading">Diseased</div>
+    <div class="health-description">Infected leaves often show distortion, with dark, irregularly shaped spots that may cause the leaves to curl or become distorted. This can lead to reduced photosynthesis and overall plant vitality.</div>
   </div>
   <div class="cards-container">
     <div class="card">
-      <div class="plant-disease">Your plant has: <div class="disease">Disease Name</div></div>
-      <div class="card-description">Description of Card 1...</div>
+      <div class="plant-disease">Your plant has: <div class="disease">Apple Scab</div></div>
+      <div class="card-description">Apple scab is caused by a fungus called Venturia inaequalis. It primarily affects the leaves, fruit, and twigs of apple trees. The disease gets its name from the scabby, dark lesions it creates on the surface of apples. These lesions can make the fruit look unattractive and can also affect its taste and texture.</div>
+      <div class="card-description"><i>Ang apple scab ay sanhi ng isang fungus na tinatawag na Venturia inaequalis. Ito ay pangunahing nakakaapekto sa mga dahon, bunga, at mga sanga ng puno ng mansanas. Ang sakit ay nagmumula sa mga maitim na lesyon sa ibabaw ng mga mansanas. Ang mga lesyong ito ay maaaring gawing hindi kagandahan ang bunga at maaaring makaapekto sa lasa at tekstura nito.</i></div>
+      <a href="#" class="learn-more-button">Learn More</a>
     </div>
     <div class="card">
       <div class="card-heading">How to take care of your plant:</div>
-      <div class="card-description">Description of Card 2...</div>
+      <div class="card-description">
+      To prevent apple scab, it's essential to keep your apple orchard or garden clean. Here are some tips:
+    <ol>
+        <li><strong>Prune:</strong> Regularly prune your apple trees to improve air circulation and sunlight exposure.</li>
+        <li><strong>Clean Up:</strong> Remove fallen leaves and infected fruit from the ground.</li>
+        <li><strong>Fungicides:</strong> In severe cases, you may need to use fungicides, but try to choose organic options when possible.</li>
+    </ol>
+    <i>Upang maiwasan ang apple scab, mahalaga na panatilihin ang iyong hardin o puno ng mansanas na malinis. Narito ang ilang tips:</h1>
+    <ol>
+        <li><strong>Regular na Pagpupungos:</strong> Regular na putulin ang mga puno ng mansanas para mapabuti ang sirkulasyon ng hangin at makakuha ng sapat na sikat ng araw.</li>
+        <li><strong>Panatilihing Malinis:</strong> Alisin ang mga nahulog na dahon at mga bunga mula sa sahig.</li>
+        <li><strong>Pagagamit ng mga Fungicides:</strong> Sa mga malubhang kaso, maaaring kailanganin ang mga fungisidyo, ngunit subukan na pumili ng mga organic na pagpipilian kung maaari.</li>
+    </ol></i>
+    <a href="#" class="learn-more-button">Learn More</a>
+      </div>
     </div>
   </div>
 </div>
+<a href="#" class="popup-btn">Learn More about my Plant's Health</a>
+

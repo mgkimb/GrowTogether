@@ -346,7 +346,7 @@
           </svg>
           <p id="dropText">Drag & Drop your files</p>
           <span>Or</span>
-          <input type="file" multiple id="uploadInput" />
+          <input type="file" multiple id="uploadInput" name = image />
           <button id="browseBtn">Browse File</button>
         </div>
       </div>
